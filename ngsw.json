@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1692894983128,
+  "timestamp": 1692895635819,
   "index": "/no-insomni/index.html",
   "assetGroups": [
     {
@@ -39,10 +39,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/no-insomni/assets/icons/icon-192x192.png": "2f52e9588669a4c025fff97c1097b4e5036cc085",
-    "/no-insomni/assets/icons/icon-256x256.png": "d8fe6aac1a2e9f8cab0a507f1ae61b646d4dab1b",
-    "/no-insomni/assets/icons/icon-384x384.png": "3ff6718cb8f2888f88d7ac8199c84e499231c0c6",
-    "/no-insomni/assets/icons/icon-512x512.png": "8ce9353e801dfd8b1737fc69c3a08d8b9f36198c",
+    "/no-insomni/assets/icons/icon-192x192.png": "3185a887717b26fc211347587e054c4d9994aedf",
+    "/no-insomni/assets/icons/icon-256x256.png": "ddc4b6b34e8d3604a5ebfc8a0e6d2e908f2316da",
+    "/no-insomni/assets/icons/icon-384x384.png": "fc4736c2b9c1e97cb9f63568bafed84cbb804063",
+    "/no-insomni/assets/icons/icon-512x512.png": "95b23c874d4bf3a8fdc45b4399299dad0b6cd564",
     "/no-insomni/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/no-insomni/index.html": "d19c148572b90df68e44218dd5609e24867fbcbb",
     "/no-insomni/main.078e1211bf8a825c.js": "2619040ffce81c15e191776ba3532b7e201d1ea2",

@@ -1,12 +1,11 @@
 {
+    "name": "No Insomni",
+    "short_name": "No Insomni",
     "theme_color": "#1141dc",
     "background_color": "#4a90e2",
-    "display": "browser",
-    "scope": "/",
-    "start_url": "/no-insomni",
-    "name": "no-insomni",
-    "short_name": "no-insomni",
-    "description": "",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./",
     "icons": [
         {
             "src": "assets/icons/icon-192x192.png",

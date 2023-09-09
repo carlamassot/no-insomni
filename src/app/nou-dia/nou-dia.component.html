@@ -329,27 +329,28 @@
       "defaultValue": {
         "opcio1": false,
         "opcio2": false,
-        "opcio3": false
+              "opcio3": false,
+              "opcio4": false
       },
       "values": [
         {
           "label": "He tingut dificultats per conciliar el son",
-          "value": "opcio1",
+                "value": "heTingutDificultatsPerConciliarElSon",
           "shortcut": ""
         },
         {
           "label": "He tingut dificultats per mantenir-me adormit",
-          "value": "opcio2",
+                "value": "heTingutDificultatsPerMantenirMeAdormit",
           "shortcut": ""
         },
         {
           "label": "He tingut dificultats per acconceguir un somni reparador",
-          "value": "opcio3",
+                "value": "heTingutDificultatsPerAcconceguirUnSomniReparador",
           "shortcut": ""
         },
         {
           "label": "He notat fatiga o una disminució del meu rendiment sociolaboral",
-          "value": "opcio4",
+                "value": "heNotatFatigaOUnaDisminucioDelMeuRendimentSociolaboral",
           "shortcut": ""
         }
       ],
@@ -390,30 +391,19 @@
       "key": "hora",
       "type": "textfield",
       "input": true
+          },
+          {
+            "label": "Introdueix l´hora que has anat a dormir",
+            "inputMask": "99:99",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "key": "horaEnQueHasAnatAdormir",
+            "type": "textfield",
+            "input": true
     }
   ],
   "input": false,
   "tableView": false
-},
-{
-  "title": "p8",
-  "breadcrumbClickable": false,
-  "buttonSettings": {
-    "previous": true,
-    "cancel": false,
-    "next": true,
-    "submit": false
-  },
-  "navigateOnEnter": false,
-  "saveOnEnter": false,
-  "scrollToTop": false,
-  "collapsible": false,
-  "key": "page6",
-  "type": "panel",
-  "label": "Page 6",
-  "input": false,
-  "tableView": false,
-  "components": []
 },
 {
   "title": "p9",
@@ -438,6 +428,17 @@
       "label": "Quins grups d&apos;aliments has consumit per sopar?",
       "optionsLabelPosition": "right",
       "tableView": false,
+            "defaultValue": {
+              "llegums": false,
+              "lactics": false,
+              "fruita": false,
+              "verdura": false,
+              "carn": false,
+              "peix": false,
+              "productesEnsucrats": false,
+              "cereals": false,
+              "res": false
+            },
       "values": [
         {
           "label": "Llegums",
@@ -472,11 +473,6 @@
         {
           "label": "Productes ensucrats",
           "value": "productesEnsucrats",
-          "shortcut": ""
-        },
-        {
-          "label": "Peix",
-          "value": "peix",
           "shortcut": ""
         },
         {
@@ -665,7 +661,7 @@
           "shortcut": ""
         },
         {
-          "label": "mes de 2 hores",
+                "label": "més de 2 hores",
           "value": "mesDe2Hores",
           "shortcut": ""
         },
@@ -898,7 +894,7 @@
           "shortcut": ""
         },
         {
-          "label": "Enfedat",
+                "label": "Enfadat",
           "value": "enfedat",
           "shortcut": ""
         },
@@ -921,7 +917,15 @@
       "key": "quinHaSigutElTeuEstatDanimDurantElDia",
       "type": "selectboxes",
       "input": true,
-      "inputType": "checkbox"
+            "inputType": "checkbox",
+            "defaultValue": {
+              "felic": false,
+              "trist": false,
+              "enfedat": false,
+              "estressat": false,
+              "ansios": false,
+              "apatic": false
+            }
     }
   ],
   "input": false,

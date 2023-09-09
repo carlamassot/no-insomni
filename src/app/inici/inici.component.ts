@@ -4,11 +4,11 @@ import { Setmana } from '../data/dies';
 import { ChartData, ChartEvent, ChartOptions, ChartType } from 'chart.js';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-inici',
+  templateUrl: './inici.component.html',
+  styleUrls: ['./inici.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class IniciComponent implements OnInit {
   diaSetmana: number = 0;
   numDies: number= 0;
   puntuacio: number = 0;

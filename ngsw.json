@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1694255892343,
+  "timestamp": 1694264087677,
   "index": "/no-insomni/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/no-insomni/favicon.ico",
         "/no-insomni/index.html",
-        "/no-insomni/main.33974aa4f3a02432.js",
+        "/no-insomni/main.a65dea6c16b605ba.js",
         "/no-insomni/manifest.webmanifest",
         "/no-insomni/polyfills.4d9cd7043e32d23f.js",
         "/no-insomni/runtime.b0ff0b5f04dbf8a3.js",
-        "/no-insomni/styles.c0f0684524929bb3.css"
+        "/no-insomni/styles.4701885871e2659a.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,11 @@
         "ignoreVary": true
       },
       "urls": [
+        "/no-insomni/assets/face-1.png",
+        "/no-insomni/assets/face-2.png",
+        "/no-insomni/assets/face-3.png",
+        "/no-insomni/assets/face-4.png",
+        "/no-insomni/assets/face-5.png",
         "/no-insomni/assets/icons/icon-192x192.png",
         "/no-insomni/assets/icons/icon-256x256.png",
         "/no-insomni/assets/icons/icon-384x384.png",
@@ -39,17 +44,22 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/no-insomni/assets/face-1.png": "fa1d3e285c7ac46295ce6994a4e8e419017d2014",
+    "/no-insomni/assets/face-2.png": "89822a7563991d74bab219a88b44977980eadb5d",
+    "/no-insomni/assets/face-3.png": "eb6173605ba74b715cbd84e593b09d5839ff5774",
+    "/no-insomni/assets/face-4.png": "2ae891323bbeab21d221d742b485209349eeb3ee",
+    "/no-insomni/assets/face-5.png": "0e5126d7a41f8a25817b98d73a2c96bc0177fad5",
     "/no-insomni/assets/icons/icon-192x192.png": "3185a887717b26fc211347587e054c4d9994aedf",
     "/no-insomni/assets/icons/icon-256x256.png": "ddc4b6b34e8d3604a5ebfc8a0e6d2e908f2316da",
     "/no-insomni/assets/icons/icon-384x384.png": "fc4736c2b9c1e97cb9f63568bafed84cbb804063",
     "/no-insomni/assets/icons/icon-512x512.png": "95b23c874d4bf3a8fdc45b4399299dad0b6cd564",
     "/no-insomni/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/no-insomni/index.html": "0d1c627cb795109934782738f413af7f333e0d07",
-    "/no-insomni/main.33974aa4f3a02432.js": "e29bd4cdbfaac48dc4880e21ad41f19333a5cdf1",
+    "/no-insomni/index.html": "50484c1c0c03c1479f46507684b82268564a9696",
+    "/no-insomni/main.a65dea6c16b605ba.js": "ef78329038c3ebc2852d1feb4d17ae7e591be4c1",
     "/no-insomni/manifest.webmanifest": "529a81be8eebe16e7b7a904a187c29d3e2874d6c",
     "/no-insomni/polyfills.4d9cd7043e32d23f.js": "51b5dbdfc4250a0ede188514c92c35880f4b6e30",
     "/no-insomni/runtime.b0ff0b5f04dbf8a3.js": "c637eb8d8e76da529dfbc67d8b9185811ddb491d",
-    "/no-insomni/styles.c0f0684524929bb3.css": "c33a36adf47a1565791b014f72b7fe70c0002a77"
+    "/no-insomni/styles.4701885871e2659a.css": "1370d62ad4ccfef01eee9f579925a91bd63f41e4"
   },
   "navigationUrls": [
     {

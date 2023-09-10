@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1694264405193,
+  "timestamp": 1694360815361,
   "index": "/no-insomni/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/no-insomni/favicon.ico",
         "/no-insomni/index.html",
-        "/no-insomni/main.a65dea6c16b605ba.js",
+        "/no-insomni/main.67334180c716792a.js",
         "/no-insomni/manifest.webmanifest",
         "/no-insomni/polyfills.4d9cd7043e32d23f.js",
         "/no-insomni/runtime.b0ff0b5f04dbf8a3.js",
@@ -54,8 +54,8 @@
     "/no-insomni/assets/icons/icon-384x384.png": "fc4736c2b9c1e97cb9f63568bafed84cbb804063",
     "/no-insomni/assets/icons/icon-512x512.png": "95b23c874d4bf3a8fdc45b4399299dad0b6cd564",
     "/no-insomni/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/no-insomni/index.html": "50484c1c0c03c1479f46507684b82268564a9696",
-    "/no-insomni/main.a65dea6c16b605ba.js": "ef78329038c3ebc2852d1feb4d17ae7e591be4c1",
+    "/no-insomni/index.html": "c48a202526f88a0e6c1ed8435c1a66b52a93d849",
+    "/no-insomni/main.67334180c716792a.js": "e18d8db12c591de5aa7359df9f1fd33287113ed3",
     "/no-insomni/manifest.webmanifest": "529a81be8eebe16e7b7a904a187c29d3e2874d6c",
     "/no-insomni/polyfills.4d9cd7043e32d23f.js": "51b5dbdfc4250a0ede188514c92c35880f4b6e30",
     "/no-insomni/runtime.b0ff0b5f04dbf8a3.js": "c637eb8d8e76da529dfbc67d8b9185811ddb491d",

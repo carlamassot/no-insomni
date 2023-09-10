@@ -11,6 +11,7 @@ import { NgbAccordionModule, NgbCollapse, NgbModule } from '@ng-bootstrap/ng-boo
 import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgChartsModule } from 'ng2-charts';
 import { InfoComponent } from './info/info.component';
+import { SobreAppComponent } from './sobre-app/sobre-app.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { InfoComponent } from './info/info.component';
     AppComponent,
     NouDiaComponent,
     IniciComponent,
-    InfoComponent
+    InfoComponent,
+    SobreAppComponent
   ],
   imports: [
     BrowserModule,

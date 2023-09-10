@@ -12,6 +12,7 @@ import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgChartsModule } from 'ng2-charts';
 import { InfoComponent } from './info/info.component';
 import { SobreAppComponent } from './sobre-app/sobre-app.component';
+import { DiaComponent } from './dia/dia.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SobreAppComponent } from './sobre-app/sobre-app.component';
     NouDiaComponent,
     IniciComponent,
     InfoComponent,
-    SobreAppComponent
+    SobreAppComponent,
+    DiaComponent
   ],
   imports: [
     BrowserModule,

@@ -7,16 +7,18 @@ import { NouDiaComponent } from './nou-dia/nou-dia.component';
 import { FormioModule } from '@formio/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IniciComponent } from './inici/inici.component';
-import { NgbCollapse, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionModule, NgbCollapse, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgChartsModule } from 'ng2-charts';
+import { InfoComponent } from './info/info.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NouDiaComponent,
-    IniciComponent
+    IniciComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,7 @@ import { NgChartsModule } from 'ng2-charts';
       registrationStrategy: 'registerWhenStable:30000'
     }),
     BrowserAnimationsModule,
-    NgbModule, NgbAlertModule, NgbCollapse, NgChartsModule
+    NgbModule, NgbAlertModule, NgbCollapse, NgChartsModule,NgbAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

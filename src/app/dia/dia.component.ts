@@ -50,7 +50,11 @@ export class DiaComponent implements OnInit {
     return "valor";
   }
 
-  getRespostaOpcio(key: any) : string {
+  existeixResposta(key: any):boolean {
+    return this.dia && this.dia.data[key];
+  }
+
+getRespostaOpcio(key: any) : string {
     const val = this.dia? this.dia.data[key] : undefined;
     
     return this.config[key].values[val]?this.config[key].values[val].replaceAll("&apos;","'"):"";

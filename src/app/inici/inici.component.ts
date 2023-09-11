@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DiesService } from '../services/dies.service';
 import { Dia, DiesSetmana, Setmana } from '../data/dies';
 import { ChartData, ChartEvent, ChartOptions, ChartType } from 'chart.js';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inici',

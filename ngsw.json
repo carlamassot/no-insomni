@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1694360815361,
+  "timestamp": 1694887539025,
   "index": "/no-insomni/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/no-insomni/favicon.ico",
         "/no-insomni/index.html",
-        "/no-insomni/main.67334180c716792a.js",
+        "/no-insomni/main.324ebdd6d8a0bdde.js",
         "/no-insomni/manifest.webmanifest",
         "/no-insomni/polyfills.4d9cd7043e32d23f.js",
         "/no-insomni/runtime.b0ff0b5f04dbf8a3.js",
-        "/no-insomni/styles.4701885871e2659a.css"
+        "/no-insomni/styles.38394288fff6a56a.css"
       ],
       "patterns": []
     },
@@ -54,12 +54,12 @@
     "/no-insomni/assets/icons/icon-384x384.png": "fc4736c2b9c1e97cb9f63568bafed84cbb804063",
     "/no-insomni/assets/icons/icon-512x512.png": "95b23c874d4bf3a8fdc45b4399299dad0b6cd564",
     "/no-insomni/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/no-insomni/index.html": "c48a202526f88a0e6c1ed8435c1a66b52a93d849",
-    "/no-insomni/main.67334180c716792a.js": "e18d8db12c591de5aa7359df9f1fd33287113ed3",
+    "/no-insomni/index.html": "35ae3936aee40e08cdd496f729d1b9152b84e48c",
+    "/no-insomni/main.324ebdd6d8a0bdde.js": "0792d5df4e857ccd5ce2dd4d7a0d95310c02fed3",
     "/no-insomni/manifest.webmanifest": "529a81be8eebe16e7b7a904a187c29d3e2874d6c",
     "/no-insomni/polyfills.4d9cd7043e32d23f.js": "51b5dbdfc4250a0ede188514c92c35880f4b6e30",
     "/no-insomni/runtime.b0ff0b5f04dbf8a3.js": "c637eb8d8e76da529dfbc67d8b9185811ddb491d",
-    "/no-insomni/styles.4701885871e2659a.css": "1370d62ad4ccfef01eee9f579925a91bd63f41e4"
+    "/no-insomni/styles.38394288fff6a56a.css": "e227376471801f1b0b4d893a9d1dfbdd8a77ead1"
   },
   "navigationUrls": [
     {

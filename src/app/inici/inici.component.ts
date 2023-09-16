@@ -79,8 +79,8 @@ export class IniciComponent implements OnInit {
       labels: ['Dades'],
       datasets: [
         {
-          data: [this.puntuacio, 50 - this.puntuacio],
-          backgroundColor: ["red", "rgb(240,240,240)"]
+            data: [this.perc(this.puntuacio),100-this.perc(this.puntuacio)],
+            backgroundColor: ["red", "rgb(240,240,240)"]
         },
       ],
 
@@ -103,8 +103,8 @@ export class IniciComponent implements OnInit {
       labels: ['Dades'],
       datasets: [
         {
-          data: [this.numDies, 30 - this.numDies],
-          backgroundColor: ["green", "rgb(240,240,240)"]
+            data: [this.numDies,this.minDies-this.numDies],
+            backgroundColor: ["green", "rgb(240,240,240)"]
         },
       ],
 
@@ -116,7 +116,7 @@ export class IniciComponent implements OnInit {
       this.quinaSetmana++;
       this.setmana = this.diesService.getSetmana(this.quinaSetmana);
       this.teAnterior = this.minDia < this.setmana.dl.dia;
-      this.teSeguent = this.maxDia > this.setmana.dg.dia;
+      this.teSeguent = this.maxDia > this.setmana.dg.dia || this.quinaSetmana < 0;
     }
   }
   anteriorSetmana() {
@@ -124,7 +124,7 @@ export class IniciComponent implements OnInit {
       this.quinaSetmana--;
       this.setmana = this.diesService.getSetmana(this.quinaSetmana);
       this.teAnterior = this.minDia < this.setmana.dl.dia;
-      this.teSeguent = this.maxDia > this.setmana.dg.dia;
+      this.teSeguent = this.maxDia > this.setmana.dg.dia || this.quinaSetmana < 0;
     }
   }
 
@@ -170,6 +170,14 @@ export class IniciComponent implements OnInit {
 
   onNouDia() {
     this.router.navigate(['nou-dia']);
+  }
+
+  perc(score: number): number {
+    return this.diesService.calculaPerc(score);
+  }
+
+  imatge(score: number): string {
+    return this.diesService.calculaImatge(score);
   }
 
 }
